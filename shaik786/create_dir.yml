@@ -1,0 +1,10 @@
+---
+ - name: creating a dir
+   hosts: webservers[1]
+   become: true
+   tasks:
+     - name: creating a dir
+       ansible.builtin.file:
+        path: /root/mohd
+        state: absent
+        mode: 0777

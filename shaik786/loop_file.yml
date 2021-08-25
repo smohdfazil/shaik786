@@ -1,0 +1,9 @@
+---
+ - name: creating multiple users
+   hosts: all
+   become: true
+   tasks:
+     - name: creating multi users
+       user:
+         name: ['admin2','admin3']
+         state: present

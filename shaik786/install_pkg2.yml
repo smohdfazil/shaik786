@@ -1,0 +1,9 @@
+---
+ - name: installing a tree
+   hosts: all
+   become: true
+   tasks:
+    - name: installing a tree
+      yum:
+        name: tree
+        state: latest

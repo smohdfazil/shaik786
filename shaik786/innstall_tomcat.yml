@@ -1,0 +1,38 @@
+---
+ - name: installing java
+   hosts: all
+   become: true
+   tasks:
+    - name: instaling java
+      yum: 
+       name: java
+       state:  installed
+      when: ansible_os_family == "RedHat"
+
+    - name: installing java
+      apt:
+        name: default-jdk
+        state: present
+      when: ansible_os_family == "Debian"
+
+    - name: download tomcat
+      get_url: 
+        url: https://mirrors.estointernet.in/apache/tomcat/tomcat-8/v8.5.70/bin/apache-tomcat-8.5.70.tar.gz
+        dest: /opt
+        
+    - name: extract tomcat
+      unarchive:
+           src: /opt/apache-tomcat-8.5.70.tar.gz
+           dest: /etc
+           remote_src: true
+
+    - name: execute permissions
+      file:
+         path: /opt/apache-tomcat-8.5.70/bin/startup.sh
+         mode: 0777 
+
+    - name: start tomcat service
+      shell: nohup ./startup.sh
+      args:
+       chdir: /opt/apache-tomcat-8.5.70/bin
+

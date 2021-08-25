@@ -1,0 +1,9 @@
+---
+ - name: creating a file
+   hosts: webservers[0]
+   become: true
+   tasks:
+     - name: creating a file
+       file:
+         path: /home/ansadmin/demofile2
+         state: touch

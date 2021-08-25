@@ -1,0 +1,16 @@
+---
+ - name: installing a webpackage
+   hosts: all
+   become: true
+   tasks:
+    - name: installing httpd
+      yum:
+       name: httpd
+       state: installed
+       tags: install_httpd
+
+    - name: service start httpd
+      service:
+        name: httpd
+        state: started
+        tags: start_httpd

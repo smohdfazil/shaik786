@@ -1,0 +1,21 @@
+---
+ - name: installing a webpackage
+   hosts: all
+   become: true
+   tasks:
+    - name: installing a webpackage
+      yum:
+       name: httpd
+       state: installed
+
+    - name: starting httpd service
+      service:
+        name: httpd
+        state: started
+
+    - name: copying a file
+      copy:
+        src: /home/ansadmin/index.html
+        dest: /var/www/html
+        mode: 0777
+
