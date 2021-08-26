@@ -398,3 +398,152 @@ ansible-playbook multi_users.yml
 vi multi_users.yml
 ansible-playbook multi_users.yml
 ls
+vi install_pkg2.yml
+yum update -y
+sudo yum update -y
+ansible-galaxy init setup-apache-role
+tree setup-apache-role
+sudo tree setup-apache-role
+ tree setup-apache-role
+ls
+cd setup-apache-role
+ls
+cd
+tree setup-apache-role
+which tree
+sudo yum install tree -y
+tree setup-apache-role
+pwd
+rm -rf setuo-apache-role/defaults
+rm -rf setuo-apache-role/meta
+rm -rf setuo-apache-role/README.md
+rm -rf setuo-apache-role/tests
+rm -rf setuo-apache-role/vars
+tree setup-apache-role
+rm -rf setup-apache-role/vars
+rm -rf setup-apache-role/defaults
+rm -rf setup-apache-role/meta
+rm -rf setup-apache-role/tests
+rm -rf setup-apache-role/README.md
+tree setup-apache-role
+rm -rf setup-apache-role/templates
+tree setup-apache-role
+ls
+cd setup-apache-role
+ls
+vi tasks/main.yml
+vi handlers/main.yml
+vi tasks/main.yml
+vi handlers/main.yml
+vi tasks/main.yml
+vi handlers/main.yml
+vi files
+vi setup-apache-role/files
+cp index.html setup-apache-role/files
+ls
+cd
+ls
+tree setup-apache-role
+rm -rf setup-apache-role/-f
+tree setup-apache-role
+cp index.html setup-apache-role/files
+tree setup-apache-role
+vi roles.yml
+vi tasks/main.yml
+ls
+vi handler_notify.yml
+vi tasks/main.yml
+ls
+tree setup-apache-role
+cat setup-apache-role/handlers/min.yml
+cat setup-apache-role/handlers/main.yml
+cat setup-apache-role/tasks/main.yml
+vi setup-apache-role/tasks/main.yml
+cat setup-apache-role/files/inde.html
+cat setup-apache-role/files/index.html
+ls
+vi roles.yml
+ansibe-playbook roles.yml
+ansible-playbook roles.yml
+vi roles.yml
+vi roles.yml --check
+vi roles.yml -- check
+ansibe-playbook roles.yml -- check
+ansibe-playbook roles.yml --check
+ansible-playbook roles.yml -- check
+ansible-playbook roles.yml
+vi roles.yml
+ansible-playbook roles.yml
+vi setup-apache-role/tasks/main.yml
+ansible-playbook roles.yml
+vi setup-apache-role/tasks/main.yml
+vi setup-apache-role/handlers/main.yml
+vi setup-apache-role/tasks/main.yml
+vi setup-apache-role/handlers/main.yml
+ansible-playbook roles.yml
+vi setup-apache-role/tasks/main.yml
+ansible-playbook roles.yml
+l
+la
+ls
+ansible-playbook roles.yml
+vi setup-apache-role/tasks/main.yml
+ansible-playbook roles.yml
+mv *.yml shaik786
+mkdir shaik786
+ls
+mv *.yml shaik786
+ls
+mv -f shaik786
+mv index.html shaik786
+mv -f shaik786
+rm -rf -f
+ls
+mv setup-apache-role shaik786
+ls
+git init
+ls -a
+git add .
+git add shaik786
+git status
+git commit -m "shaikfirst"
+git --global config user.name "fazil"
+git config --global user.name "fazil"
+git config --global user.email "shaikmohdfazil@gmail.com"
+git remote add origin git@github.com:smohdfazil/shaikfirst.git
+git branch -M main
+git push -u origin main
+git remote add origin git@github.com:smohdfazil/shaikfirst.git
+git branch -M main
+git commit -m "shaikfirst"
+git push -u origin
+git push -u origin main
+git@github.com:smohdfazil/shaikfirst.git
+which ssh
+cd /usr/bin/ssh
+cd /usr/bin/
+ls
+cd ssh_config
+cat sshd_config
+cd sshd_config
+cd ssh/
+cat ssh/
+ssh/
+cat ssh/
+cd ..
+ls
+cd bin/
+ls
+cd
+ssh-keygen
+cd $
+cd .ssh/
+ls
+cat id_rsa.pub
+cd
+git@github.com:smohdfazil/shaik786.git
+git remote remove origin
+git@github.com:smohdfazil/shaik786.git
+git remote add origin git@github.com:smohdfazil/shaik786.git
+git branch -M main
+git push -u origin main

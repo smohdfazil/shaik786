@@ -10,17 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~H
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1629915337,,"wq!"
+|2,0,1629960527,,"wq!"
 :wq! -f
-|2,0,1629913870,,"wq! -f"
+|2,0,1629960337,,"wq! -f"
 :wq!\
 |2,0,1629913552,,"wq!\\"
 :wq!-f
 |2,0,1629289269,,"wq!-f"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1629960328,,"@$"
 
 # Expression History (newest to oldest):
 
@@ -29,235 +34,264 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
 	:
-|3,1,36,0,1,0,1629742336,":"
+|3,1,0,0,1,0,1629960328,":"
+"-	CHAR	0
+	:
+|3,0,36,0,1,0,1629742336,":"
 
 # File marks:
-'0  8  5  ~/setup-apache-role/tasks/main.yml
-|4,48,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
-'1  20  14  ~/setup-apache-role/tasks/main.yml
-|4,49,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
-'2  20  14  ~/setup-apache-role/tasks/main.yml
-|4,50,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
-'3  6  19  ~/setup-apache-role/handlers/main.yml
-|4,51,6,19,1629914958,"~/setup-apache-role/handlers/main.yml"
-'4  8  23  ~/setup-apache-role/tasks/main.yml
-|4,52,8,23,1629914945,"~/setup-apache-role/tasks/main.yml"
-'5  8  23  ~/setup-apache-role/tasks/main.yml
-|4,53,8,23,1629914945,"~/setup-apache-role/tasks/main.yml"
-'6  8  23  ~/setup-apache-role/tasks/main.yml
-|4,54,8,23,1629914945,"~/setup-apache-role/tasks/main.yml"
-'7  6  19  ~/setup-apache-role/handlers/main.yml
-|4,55,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
-'8  21  8  ~/setup-apache-role/tasks/main.yml
-|4,56,21,8,1629914867,"~/setup-apache-role/tasks/main.yml"
-'9  21  8  ~/setup-apache-role/tasks/main.yml
-|4,57,21,8,1629914867,"~/setup-apache-role/tasks/main.yml"
+'0  7  19  ~/role1.yml
+|4,48,7,19,1629960527,"~/role1.yml"
+'1  8  0  ~/test-file-role/files
+|4,49,8,0,1629960337,"~/test-file-role/files"
+'2  6  20  ~/test-file-role/handlers/main.yml
+|4,50,6,20,1629960307,"~/test-file-role/handlers/main.yml"
+'3  14  0  ~/test-file-role/tasks/main.yml
+|4,51,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+'4  9  0  ~/setup-apache-role/files
+|4,52,9,0,1629917019,"~/setup-apache-role/files"
+'5  8  5  ~/setup-apache-role/tasks/main.yml
+|4,53,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+'6  20  14  ~/setup-apache-role/tasks/main.yml
+|4,54,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+'7  20  14  ~/setup-apache-role/tasks/main.yml
+|4,55,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+'8  6  19  ~/setup-apache-role/handlers/main.yml
+|4,56,6,19,1629914958,"~/setup-apache-role/handlers/main.yml"
+'9  8  23  ~/setup-apache-role/tasks/main.yml
+|4,57,8,23,1629914945,"~/setup-apache-role/tasks/main.yml"
 
 # Jumplist (newest first):
+-'  7  19  ~/role1.yml
+|4,39,7,19,1629960527,"~/role1.yml"
+-'  1  0  ~/role1.yml
+|4,39,1,0,1629960467,"~/role1.yml"
+-'  8  0  ~/test-file-role/files
+|4,39,8,0,1629960337,"~/test-file-role/files"
+-'  8  0  ~/test-file-role/files
+|4,39,8,0,1629960337,"~/test-file-role/files"
+-'  6  20  ~/test-file-role/handlers/main.yml
+|4,39,6,20,1629960307,"~/test-file-role/handlers/main.yml"
+-'  6  20  ~/test-file-role/handlers/main.yml
+|4,39,6,20,1629960307,"~/test-file-role/handlers/main.yml"
+-'  6  20  ~/test-file-role/handlers/main.yml
+|4,39,6,20,1629960307,"~/test-file-role/handlers/main.yml"
+-'  6  20  ~/test-file-role/handlers/main.yml
+|4,39,6,20,1629960307,"~/test-file-role/handlers/main.yml"
+-'  1  0  ~/test-file-role/handlers/main.yml
+|4,39,1,0,1629960240,"~/test-file-role/handlers/main.yml"
+-'  1  0  ~/test-file-role/handlers/main.yml
+|4,39,1,0,1629960240,"~/test-file-role/handlers/main.yml"
+-'  1  0  ~/test-file-role/handlers/main.yml
+|4,39,1,0,1629960240,"~/test-file-role/handlers/main.yml"
+-'  1  0  ~/test-file-role/handlers/main.yml
+|4,39,1,0,1629960240,"~/test-file-role/handlers/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  14  0  ~/test-file-role/tasks/main.yml
+|4,39,14,0,1629960209,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  1  0  ~/test-file-role/tasks/main.yml
+|4,39,1,0,1629960040,"~/test-file-role/tasks/main.yml"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  9  0  ~/setup-apache-role/files
+|4,39,9,0,1629917019,"~/setup-apache-role/files"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
+-'  8  5  ~/setup-apache-role/tasks/main.yml
+|4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
 -'  8  5  ~/setup-apache-role/tasks/main.yml
 |4,39,8,5,1629915337,"~/setup-apache-role/tasks/main.yml"
 -'  20  14  ~/setup-apache-role/tasks/main.yml
 |4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
 -'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915314,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
+|4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
+-'  20  14  ~/setup-apache-role/tasks/main.yml
 |4,39,20,14,1629915256,"~/setup-apache-role/tasks/main.yml"
 -'  8  23  ~/setup-apache-role/tasks/main.yml
 |4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914958,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914958,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914958,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914958,"~/setup-apache-role/handlers/main.yml"
 -'  8  23  ~/setup-apache-role/tasks/main.yml
-|4,39,8,23,1629914945,"~/setup-apache-role/tasks/main.yml"
+|4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
 -'  8  23  ~/setup-apache-role/tasks/main.yml
-|4,39,8,23,1629914945,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914899,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914899,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914899,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914899,"~/setup-apache-role/tasks/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  6  19  ~/setup-apache-role/handlers/main.yml
-|4,39,6,19,1629914896,"~/setup-apache-role/handlers/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914867,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914867,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914867,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914867,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914798,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914798,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914798,"~/setup-apache-role/tasks/main.yml"
--'  21  8  ~/setup-apache-role/tasks/main.yml
-|4,39,21,8,1629914798,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  19  15  ~/setup-apache-role/tasks/main.yml
-|4,39,19,15,1629914708,"~/setup-apache-role/tasks/main.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
--'  7  22  ~/roles.yml
-|4,39,7,22,1629914664,"~/roles.yml"
+|4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
+-'  8  23  ~/setup-apache-role/tasks/main.yml
+|4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
+-'  8  23  ~/setup-apache-role/tasks/main.yml
+|4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
+-'  8  23  ~/setup-apache-role/tasks/main.yml
+|4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
+-'  8  23  ~/setup-apache-role/tasks/main.yml
+|4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
+-'  8  23  ~/setup-apache-role/tasks/main.yml
+|4,39,8,23,1629914993,"~/setup-apache-role/tasks/main.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/role1.yml
+	*	1629960524	0
+	"	7	19
+	^	7	20
+	.	7	19
+	+	7	19
+
+> ~/test-file-role/handlers/main.yml
+	*	1629960302	0
+	"	6	20
+	^	6	21
+	.	6	11
+	+	6	20
+	+	3	10
+	+	5	11
+	+	6	11
+
+> ~/test-file-role/tasks/main.yml
+	*	1629960206	0
+	"	14	0
+	^	14	16
+	.	14	15
+	+	10	1
+	+	3	0
+	+	14	15
 
 > ~/setup-apache-role/tasks/main.yml
 	*	1629915329	0
@@ -575,39 +609,3 @@
 	+	6	15
 	+	5	13
 	+	6	3
-
-> ~/loop_file.yml
-	*	1629573215	0
-	"	7	10
-	^	7	11
-	.	7	10
-	+	9	24
-	+	2	16
-	+	6	32
-	+	8	32
-	+	9	22
-	+	7	10
-
-> ~/index.html
-	*	1629571386	0
-	"	5	20
-	^	5	21
-	.	5	20
-	+	1	42
-	+	3	38
-	+	5	20
-
-> ~/install_complete.yml
-	*	1629316407	0
-	"	20	17
-	^	20	18
-	.	20	17
-	+	2	9
-	+	6	26
-	+	7	8
-	+	9	22
-	+	11	33
-	+	12	12
-	+	16	26
-	+	21	0
-	+	20	17

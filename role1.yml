@@ -1,0 +1,7 @@
+---
+ - name: install package
+   hosts: all
+   become: true
+   
+   roles:
+    - test-file-role

@@ -1,0 +1,14 @@
+---
+# tasks file for test-file-role
+#
+# - name: installing package
+#   yum:
+#    name: httpd
+#    state: installed
+#   notify: installed httpd
+#
+# - name: copy inndex.html
+#   copy:
+#     src: /homme/ansadmin/index.html
+#     dest: /var/www/html
+#     mode: 0777
